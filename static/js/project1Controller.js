@@ -270,6 +270,7 @@ function getCurrentScore() {
     let currentScore = 0;
     currentScore += getTechnicalScore();
     currentScore += getConceptScore();
+    currentScore += getDeploymentScore();
     currentScore += getRepositoryScore();
     currentScore += getAppQualityScore();
     currentScore += getPresentationScore();
